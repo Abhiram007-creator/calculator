@@ -1,0 +1,50 @@
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.section{
+    margin-top: 100px;
+    width: 10%;
+}
+.calc .display{
+    width: 100%;
+    height: 60px;
+    outline: 5px solid black;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.calc .buttons{
+    margin-top: 11px;
+}
+.calc .buttons button{
+    border: 1px solid rgb(88, 81, 81);
+    padding: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.calc .buttons button:hover{
+    background-color: white;
+    color: black;
+}
+.calc .buttons .clear{
+    color: blue;
+    font-size: 11px;
+}
+.calc .buttons .clear:hover{
+    background-color: blue;
+}
+.calc .buttons .symbol{
+    color: blue;
+    font-size: 11px;
+}
+.calc .buttons .symbol:hover{
+    background-color: blue;
+}
